@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+font-family:'Times New Roman', Times, serif;
+  }
+  .navbar {
+    box-shadow: 0 15px 40px -20px rgb(40 44 63 / 15%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background: #fff;
+    z-index: 1000;
+    padding: 0 20px;
+  }
+  .navbar .nav {
+    max-width: 1200px;
+    min-width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    height: 80px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar .nav-left {
+    display: flex;
+    align-items: center;
+  }
+  .navbar .nav-left .logo {
+    display: block;
+    height: 49px;
+    transition: transform 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+    margin-right: 15px;
+  }
+  .navbar .nav-left .logo:hover {
+    transform: scale(1.1);
+  }
+  .navbar .location-div,
+  .other {
+    position: relative;
+  }
+  .navbar .location-div {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    max-width: 300px;
+    height: 30px;
+    cursor: pointer;
+    margin-bottom: -1px;
+    padding-right: 10px;
+    font-size: 14px;
+  }
+  .navbar .nav-right {
+    position: relative;
+  }
+  .location-div .other {
+    font-weight: 700;
+    color: #3d4152;
+    float: left;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #3d4152;
+  }
+  .location-div .other:hover {
+    color: #fc8019;
+    border-bottom: 2px solid #fc8019;
+  }
+  .location-div .location {
+    display: block;
+    font-weight: 300;
+    padding-left: 5px;
+    margin-left: 5px;
+    color: #686b78;
+  }
+  .nav-right .items {
+    display: flex;
+    align-items: center;
+  }
+  .nav-right .items li {
+    margin-right: 30px;
+    font-size: 16px;
+    color : black;
+    font-weight: 700;
+    list-style-type: none;
+  }
+  .nav-right .items li:hover{
+    margin-left:1px ;
+    margin-right: 36px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fc8019;
+    list-style-type: none;
+}
+  .nav-right .items .nav-item {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    color: black;
+    position: relative;
+    height: 80px;
+    cursor: pointer;
+  }
+  .nav-right .items .nav-item a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #3d4152;
+    font-size: 16px;
+  } .items .nav-item a :hover{
+    color : #fc8019;
+  }
+
+  .nav-item a span {
+    padding-left: 11px;
+  }
+  .Restaurants .container
+  {
+    max-width: 1200px;
+    min-width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 42px;
+    top: 80px;
+    background: #fff;
+    left : 31px;
+  }
+  .Resaurant-list .Resaurant-list-online{
+    display: grid;
+    grid-template-columns:repeat(4,25%);
+    justify-content: space-between;
+    margin-bottom: 80px;
+    padding-top: 39px;
+    margin-top: 25px;
+  }
+ .Restaurant-list-2{
+    display: grid;
+    grid-template-columns:repeat(4,25%);
+    justify-content: space-between;
+    margin-bottom: 80px;
+    padding-top: 39px;
+    margin-top: 25px;
+  }
+
+  .Resaurant-list .place-item{
+    background: #fff;
+    display: block;
+
+    text-decoration: none;
+    color: inherit;
+  }
+  .Resaurant-list .list-items{
+justify-content: space-between;
+    border: 1px solid #fff;
+  padding: 25px 25px 57px;
+  padding-bottom: 25px;
+    content: content;
+  }
+  
+  .Resaurant-list .list-items:hover{
+    border-color: #d3d5df;
+    box-shadow: 0 4px 7px 0 rgb(218 220 230 / 60%);
+    padding: 25px 25px 57px;
+    padding-bottom: 25px;
+    
+  }
+  .Shorted{
+    font-size: 500;
+    font-weight: 300;
+    cursor: pointer;
+  }
+   .Shorted button{
+    margin-left: 25px;
+    margin-top: 25px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 8px 30px;
+    font-weight: 200;
+    border: 0.1;
+    border-radius: 15px;
+    outline: 0;
+    font-size: 600;
+}
+   .place-items{
+    background: #fff;
+    display: block;
+
+    text-decoration: none;
+    color: inherit;
+   }
+ .list-item{
+justify-content: space-between;
+    border: 1px solid #fff;
+  padding: 25px 25px 57px;
+  padding-bottom: 25px;
+    content: content;
+  }
+  
+ .list-item:hover{
+    border-color: #d3d5df;
+    box-shadow: 0 4px 7px 0 rgb(218 220 230 / 60%);
+    
+  }
+  .top-img img{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+  }
+  .top-img img:hover{
+    margin-left: 2px;
+    width: 230px;
+    height: 130px;
+    border-radius: 10px;
+
+  }
+
+
+
+  .footer {
+    padding: 0 20px;
+    z-index: 10;
+    background-color: #000;
+    min-height: 298px;
+    width: 100%;
+    color: #fff;
+    overflow: scroll;
+  }
+  .footer .App h2{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 23px;
+    margin-bottom: 25PX;
+  }
+  .App img{
+    align-items: center;
+    margin-left: 234px;
+  }
+  .footer-content {
+    width: 100%;
+    display: flex;
+    background-color: #000000;
+    justify-content: space-around;
+    max-width: 1200px;
+    min-width: 1200px;
+    margin: 0 auto;
+    padding: 76px 0;
+    height: 100%;
+  }
+  
+  .points {
+    color: #808080;
+    font-size: 15px;
+    font-weight: 600;
+    width: 300px;
+    margin: 26px 0px 10px 15px;
+  }
+  
+  .footer-li {
+    padding: 20px 10px 2px 0px;
+  }
+  
+  .footer-ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-li a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none;
+  }
+  
+  .footer-li a:hover {
+    font-weight: 600;
+  }
+  
+  .points img {
+    border: 2px solid #808080;
+    padding: 10px;
+    margin: 30px 0px 10px 57px;
+    border-radius: 10px;
+    transition: transform 0.5s;
+  }
+  
+  .points img:hover {
+    transform: scale(1.06);
+    cursor: pointer;
+  }
+  .top-img {
+    background: #eef0f5;
+    position: relative;
+  }
+
+  .info-div .rating {
+    background-color: #db7c38;
+    color: #000000;
+    height: 20px;
+    width: 36px;
+    padding: 0 5px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+  }  
+  .place-name-div {
+    margin-top: 14px;
+  }
+  .place-name-div .name {
+    font-size: 15px;
+    font-weight: 700;
+    word-break: break-word;
+  }
+  .place-name-div .food-items {
+    color: #686b78;
+    font-size: 13px;
+    margin-top: 4px;
+    font-weight: 500;
+  }
+  .place-name-div .rating-time
+  {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .info-div {
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+    font-size: 15px;
+    justify-content: space-between;
+    color: #000000;
+    font-weight: 300;
+  }
